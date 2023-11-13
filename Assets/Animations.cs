@@ -12,6 +12,8 @@ public class Animations : MonoBehaviour
         DOTween.Sequence();
         DOTween.Kill(gameObject.transform);
 
+        transform.DOMove(new Vector3(2, 2, 2), 1);
+
 
     }
 
